@@ -24,7 +24,7 @@ IPS
 print yourText
 puts Question
 choice1 = gets.chomp
-choice1 = 0
+def trial(choice1)
 	if choice1 == 1
 		print lorem
 		elsif choice1 == 2
@@ -32,7 +32,7 @@ choice1 = 0
 	else choice1 == 3
 		print "try again"
 	end
-
+end
 
 
 			
